@@ -4,6 +4,7 @@
 ### 1.高斯模糊 (GaussianBlur)：把圖片變模糊，消除睫毛等雜訊。
 
 ### 2.二值化 (threshold)：把像素強制分成純黑與純白，藉此抓出眼睛裡「最暗的區塊」（通常就是瞳孔）。
-
+ 
 ### 3.尋找輪廓 (findContours)：用幾何學的方式，把那個暗塊描邊並畫出一個外接圓形。
 展示成果
+<img width="799" height="532" alt="3333" src="https://github.com/user-attachments/assets/0d3a42e8-c96b-4ffe-8be4-8dfb349e372d" />
